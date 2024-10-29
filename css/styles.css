@@ -79,11 +79,13 @@ img {
 
 .header-container {
   display: flex;
+  align-items: center;
 }
 
 .header-navi {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -135,6 +137,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: block;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -175,8 +178,10 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  margin-bottom: 48px;
   max-width: 496px;
+  margin-bottom: 48px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .order-svc {
   cursor: pointer;
@@ -193,6 +198,8 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .order-svc:hover,
@@ -263,7 +270,6 @@ img {
   border-radius: 0 0 4px 4px;
 }
 .team-item-img {
-  margin-bottom: 32px;
 }
 .team-item-descr {
   padding-top: 32px;
@@ -376,4 +382,5 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
