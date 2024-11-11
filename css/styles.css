@@ -554,6 +554,9 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-sm-link:hover,
@@ -562,5 +565,5 @@ img {
 }
 
 .footer-sm-icon {
-  fill: #ffffff;
+  fill: #f4f4fd;
 }
