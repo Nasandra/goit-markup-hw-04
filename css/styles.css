@@ -146,13 +146,16 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.current {
+  color: #404bbf;
+}
 .current::after {
   content: "";
   width: 100%;
   display: block;
   height: 4px;
   background-color: #404bbf;
-  color: #404bbf;
+
   border-radius: 2px;
   position: absolute;
   left: 0;
